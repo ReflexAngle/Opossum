@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace opossum.opossum
 {
-    internal class uploadList
+    public class uploadList
     {
-        public uploadList() { }
+        public static string wordListUpload(string wordListPath) { 
+            Console.WriteLine(wordListPath);
+            return wordListPath;
+        }
     }
 }
